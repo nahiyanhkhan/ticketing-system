@@ -1,0 +1,1955 @@
+[{
+  "_id": {
+    "$oid": "63b55abc336e921f1aa97a48"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "product": {
+    "$oid": "63b51b09336e921f1aa97903"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-01-04T10:53:48.187Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-04T13:55:48.240Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63b584542426eed41a727e05"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c3a4601ec4d95dc09cc5"
+  },
+  "product": {
+    "$oid": "63b51b9b336e921f1aa9790f"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-01-04T13:51:16.821Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-04T13:51:32.729Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63b657752426eed41a727e76"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c3b2601ec4d95dc09cca"
+  },
+  "product": {
+    "$oid": "63b51b2b336e921f1aa97905"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-01-05T04:52:05.746Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-05T04:52:14.585Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63b657bc2426eed41a727ec5"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c399601ec4d95dc09cc0"
+  },
+  "product": {
+    "$oid": "63b51b09336e921f1aa97903"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-01-05T04:53:16.248Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-05T04:53:23.866Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63b6a5f75e1985852edfa6c5"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c389601ec4d95dc09cbb"
+  },
+  "product": {
+    "$oid": "63b51b2b336e921f1aa97905"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-01-05T10:27:03.851Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-05T10:30:03.930Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63b6a6c75e1985852edfa6d9"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c389601ec4d95dc09cbb"
+  },
+  "product": {
+    "$oid": "63b51b2b336e921f1aa97905"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-01-05T10:30:31.105Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-05T10:38:54.190Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63b6ab715e1985852edfa72e"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c3a4601ec4d95dc09cc5"
+  },
+  "product": {
+    "$oid": "63b51b09336e921f1aa97903"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-01-05T10:50:25.625Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-05T10:50:36.812Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63b6ac245e1985852edfa758"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c3a4601ec4d95dc09cc5"
+  },
+  "product": {
+    "$oid": "63b51b09336e921f1aa97903"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-01-05T10:53:24.946Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-05T10:53:31.449Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63b6c13a5e1985852edfa890"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c3a4601ec4d95dc09cc5"
+  },
+  "product": {
+    "$oid": "63b51b09336e921f1aa97903"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-01-05T12:23:22.841Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-05T12:23:29.044Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63b6cafd0272b17af0969f1d"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c3a4601ec4d95dc09cc5"
+  },
+  "product": {
+    "$oid": "63b51b09336e921f1aa97903"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-01-05T13:05:01.124Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-05T13:05:05.249Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63b6cd44e44de0eda5ee7c30"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c399601ec4d95dc09cc0"
+  },
+  "product": {
+    "$oid": "63b51b09336e921f1aa97903"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-01-05T13:14:44.876Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-05T13:57:27.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63b6d59153458544a0442269"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c495601ec4d95dc09d25"
+  },
+  "product": {
+    "$oid": "63b51b6a336e921f1aa97909"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-01-05T13:50:09.855Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-05T13:57:29.587Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63b6d9de53458544a04422e8"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c399601ec4d95dc09cc0"
+  },
+  "product": {
+    "$oid": "63b51b2b336e921f1aa97905"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-01-05T14:08:30.452Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-05T14:10:37.698Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63b6dc1a53458544a0442348"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c399601ec4d95dc09cc0"
+  },
+  "product": {
+    "$oid": "63b51b2b336e921f1aa97905"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-01-05T14:18:02.153Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-05T14:18:25.102Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63b6dc7e53458544a04423a1"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c399601ec4d95dc09cc0"
+  },
+  "product": {
+    "$oid": "63b51b2b336e921f1aa97905"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-01-05T14:19:42.614Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-05T14:52:35.954Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63b6e44353458544a04423c8"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c399601ec4d95dc09cc0"
+  },
+  "product": {
+    "$oid": "63b51b09336e921f1aa97903"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-01-05T14:52:51.357Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-05T14:54:39.972Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63b7b0432b2439909d3fdc8c"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c399601ec4d95dc09cc0"
+  },
+  "product": {
+    "$oid": "63b51b09336e921f1aa97903"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-01-06T05:23:15.360Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-06T06:17:36.742Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63b7c1c46174a8288ea63cb0"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c495601ec4d95dc09d25"
+  },
+  "product": {
+    "$oid": "63b51bbf336e921f1aa97915"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-01-06T06:37:56.055Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-06T06:41:23.198Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63b7c2296174a8288ea63cd1"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c49f601ec4d95dc09d2a"
+  },
+  "product": {
+    "$oid": "63b51b2b336e921f1aa97905"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-01-06T06:39:37.022Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-06T06:39:48.147Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63b7c2cc6174a8288ea63cfe"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c389601ec4d95dc09cbb"
+  },
+  "product": {
+    "$oid": "63b51b2b336e921f1aa97905"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-01-06T06:42:20.052Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-06T08:23:41.608Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63b7ecf68978b8422076518f"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c3e5601ec4d95dc09cde"
+  },
+  "product": {
+    "$oid": "63b7ecce8978b84220765184"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-01-06T09:42:14.469Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-06T09:44:55.324Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63b7ee038978b842207651ce"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c389601ec4d95dc09cbb"
+  },
+  "product": {
+    "$oid": "63b7ed0e8978b84220765199"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-01-06T09:46:43.244Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-06T09:46:52.523Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63b7ee268978b842207651e8"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "product": {
+    "$oid": "63b7ed098978b84220765195"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-01-06T09:47:18.659Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-06T10:06:19.132Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63b7f20b8978b84220765249"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c52e601ec4d95dc09d70"
+  },
+  "product": {
+    "$oid": "63b7f1e28978b84220765242"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-01-06T10:03:55.401Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-06T10:04:07.843Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63b7f2938978b84220765272"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c399601ec4d95dc09cc0"
+  },
+  "product": {
+    "$oid": "63b51b2b336e921f1aa97905"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-01-06T10:06:11.731Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-06T10:06:20.557Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63b867c88978b842207653cf"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c4eb601ec4d95dc09d4d"
+  },
+  "product": {
+    "$oid": "63b51b09336e921f1aa97903"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-01-06T18:26:16.797Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-06T18:27:18.182Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63b868478978b842207653f1"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c4eb601ec4d95dc09d4d"
+  },
+  "product": {
+    "$oid": "63b7ed098978b84220765195"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-01-06T18:28:23.094Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-06T18:28:32.924Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63b868698978b84220765403"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c4eb601ec4d95dc09d4d"
+  },
+  "product": {
+    "$oid": "63b7ed098978b84220765195"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-01-06T18:28:57.680Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-06T18:29:16.166Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63b8688a8978b84220765415"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c470601ec4d95dc09d16"
+  },
+  "product": {
+    "$oid": "63b7ed098978b84220765195"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-01-06T18:29:30.263Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-06T18:29:33.924Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63bb98b58978b8422076544b"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c5bb601ec4d95dc09db1"
+  },
+  "product": {
+    "$oid": "63b51b2b336e921f1aa97905"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-01-09T04:31:49.121Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-09T04:31:58.776Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63bcf7ec8978b8422076558a"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63bcee6f8978b842207654e4"
+  },
+  "product": {
+    "$oid": "63b51b09336e921f1aa97903"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-01-10T05:30:20.262Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-10T05:34:37.464Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63bcf80c8978b84220765591"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63bcee6f8978b842207654e4"
+  },
+  "product": {
+    "$oid": "63b51b2b336e921f1aa97905"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-01-10T05:30:52.323Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-10T05:34:40.246Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63bcf8988978b842207655d4"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c389601ec4d95dc09cbb"
+  },
+  "product": {
+    "$oid": "63b51b3b336e921f1aa97907"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-01-10T05:33:12.158Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-10T10:41:43.862Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63bd25378978b84220765885"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63bcee6f8978b842207654e4"
+  },
+  "product": {
+    "$oid": "63bd20858978b84220765868"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-01-10T08:43:35.785Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-10T10:41:48.572Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63bd331a8978b84220765966"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63bcee6f8978b842207654e4"
+  },
+  "product": {
+    "$oid": "63bd2f698978b842207658de"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-01-10T09:42:50.606Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-01T07:15:02.211Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63bd423c8978b8422076599b"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63bcee6f8978b842207654e4"
+  },
+  "product": {
+    "$oid": "63b51b09336e921f1aa97903"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-01-10T10:47:24.596Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-13T05:58:47.504Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63bd42558978b842207659a2"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63bcee6f8978b842207654e4"
+  },
+  "product": {
+    "$oid": "63b51b2b336e921f1aa97905"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-01-10T10:47:49.839Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-13T05:58:56.151Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63bd42fe8978b842207659a9"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63bcee6f8978b842207654e4"
+  },
+  "product": {
+    "$oid": "63b51b3b336e921f1aa97907"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-01-10T10:50:38.908Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-13T05:58:57.209Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63e9d0f4a361fede06853ae8"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63bcee6f8978b842207654e4"
+  },
+  "product": {
+    "$oid": "63b51b6a336e921f1aa97909"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-02-13T05:56:04.161Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-13T05:59:03.810Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63e9d102a361fede06853aef"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63bcee6f8978b842207654e4"
+  },
+  "product": {
+    "$oid": "63b51b9b336e921f1aa9790f"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-02-13T05:56:18.156Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-13T06:07:40.079Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63e9d110a361fede06853af6"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63bcee6f8978b842207654e4"
+  },
+  "product": {
+    "$oid": "63b51b78336e921f1aa9790b"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-02-13T05:56:32.708Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-13T07:00:47.582Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63e9d121a361fede06853b03"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63bcee6f8978b842207654e4"
+  },
+  "product": {
+    "$oid": "63b51b85336e921f1aa9790d"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-02-13T05:56:49.155Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-20T09:27:30.286Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63e9d12aa361fede06853b0a"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63bcee6f8978b842207654e4"
+  },
+  "product": {
+    "$oid": "63b51ba7336e921f1aa97911"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-02-13T05:56:58.553Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-13T08:19:14.341Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63e9d134a361fede06853b11"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63bcee6f8978b842207654e4"
+  },
+  "product": {
+    "$oid": "63b51bb2336e921f1aa97913"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-02-13T05:57:08.220Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-20T09:27:32.380Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63e9d152a361fede06853b22"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63bcee6f8978b842207654e4"
+  },
+  "product": {
+    "$oid": "63b51bbf336e921f1aa97915"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-02-13T05:57:38.609Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-20T09:29:36.846Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63e9d168a361fede06853b2f"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63bcee6f8978b842207654e4"
+  },
+  "product": {
+    "$oid": "63b51bcc336e921f1aa97917"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-02-13T05:58:00.772Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-20T09:29:35.351Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63e9d183a361fede06853b3c"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63bcee6f8978b842207654e4"
+  },
+  "product": {
+    "$oid": "63b51cba336e921f1aa9792b"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-02-13T05:58:27.713Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-20T09:29:34.720Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63e9d33ba361fede06853b6b"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b550ae336e921f1aa979b7"
+  },
+  "product": {
+    "$oid": "63b51b09336e921f1aa97903"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-02-13T06:05:47.571Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-20T09:29:34.261Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63e9d362a361fede06853b78"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b6daa053458544a044231a"
+  },
+  "product": {
+    "$oid": "63b51b2b336e921f1aa97905"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-02-13T06:06:26.777Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-20T09:29:33.665Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63e9d3a0a361fede06853b85"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b7c12f6174a8288ea63c7e"
+  },
+  "product": {
+    "$oid": "63b51b3b336e921f1aa97907"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-02-13T06:07:28.868Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-20T09:29:32.786Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63e9e0dfa361fede06853bbe"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b550ae336e921f1aa979b7"
+  },
+  "product": {
+    "$oid": "63b7ed098978b84220765195"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-02-13T07:03:59.357Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-20T09:27:17.834Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63e9f27ca361fede06853bd0"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "product": {
+    "$oid": "63b7ed0c8978b84220765197"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-02-13T08:19:08.385Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-20T09:29:23.895Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63f32e1ca361fede06853c14"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c3cd601ec4d95dc09cd4"
+  },
+  "product": {
+    "$oid": "63b51b6a336e921f1aa97909"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-02-20T08:23:56.593Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-20T09:29:31.562Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63f32e64a361fede06853c2d"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c3b2601ec4d95dc09cca"
+  },
+  "product": {
+    "$oid": "63b51b9b336e921f1aa9790f"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-02-20T08:25:08.861Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-20T09:29:29.902Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63f33d4aa361fede06853c6e"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "product": {
+    "$oid": "63b51b78336e921f1aa9790b"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-02-20T09:28:42.962Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-20T09:29:26.392Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63f33d8fa361fede06853cc6"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c389601ec4d95dc09cbb"
+  },
+  "product": {
+    "$oid": "63b51b09336e921f1aa97903"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-02-20T09:29:51.086Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-20T09:32:40.507Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63f33e88a361fede06853cdf"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "product": {
+    "$oid": "63f33e5ea361fede06853cd8"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-02-20T09:34:00.433Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-20T09:35:16.854Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63f33ea9a361fede06853cec"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c4cc601ec4d95dc09d3e"
+  },
+  "product": {
+    "$oid": "63b51b2b336e921f1aa97905"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-02-20T09:34:33.027Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-20T09:35:18.305Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63f4900ea361fede06853d26"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "product": {
+    "$oid": "63b51b6a336e921f1aa97909"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-02-21T09:34:06.604Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-21T09:34:13.134Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63f8a681a361fede06853d8c"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "product": {
+    "$oid": "63b51b6a336e921f1aa97909"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-02-24T11:58:57.549Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-24T11:59:05.151Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63f8bb5da361fede06853dce"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "product": {
+    "$oid": "63f8bb3fa361fede06853dc7"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-02-24T13:27:57.047Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-24T13:28:12.632Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "640f075ba361fede06854038"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c5bb601ec4d95dc09db1"
+  },
+  "product": {
+    "$oid": "63bd29258978b842207658a4"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-03-13T11:22:03.350Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-13T11:22:14.642Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "640f0785a361fede06854049"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c5bb601ec4d95dc09db1"
+  },
+  "product": {
+    "$oid": "63b7ed098978b84220765195"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-03-13T11:22:45.340Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-13T11:44:36.936Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "640f0c96a361fede06854073"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c5bb601ec4d95dc09db1"
+  },
+  "product": {
+    "$oid": "63b51b6a336e921f1aa97909"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-03-13T11:44:22.292Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-13T11:44:41.294Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6410031aa361fede0685409c"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c5bb601ec4d95dc09db1"
+  },
+  "product": {
+    "$oid": "63b51b6a336e921f1aa97909"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-03-14T05:16:10.345Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-14T05:16:17.022Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64100759a361fede068540ba"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c5bb601ec4d95dc09db1"
+  },
+  "product": {
+    "$oid": "63b51b6a336e921f1aa97909"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-03-14T05:34:17.996Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-14T06:31:06.180Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6414337fa361fede0685418e"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c389601ec4d95dc09cbb"
+  },
+  "product": {
+    "$oid": "63b51b6a336e921f1aa97909"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-03-17T09:31:43.677Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-08T13:06:40.700Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "642ba79d5969975923c9dd05"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63bd00268978b842207656fb"
+  },
+  "product": {
+    "$oid": "63b51b78336e921f1aa9790b"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-04-04T04:29:17.517Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-08T13:06:42.101Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64cf9618cdf095de2e91b991"
+  },
+  "branch": "Sylhet",
+  "user": {
+    "$oid": "63b3c4cc601ec4d95dc09d3e"
+  },
+  "product": {
+    "$oid": "64c0de908a51c8aa6656a93f"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c4cc601ec4d95dc09d3e"
+  },
+  "createdAt": {
+    "$date": "2023-08-06T12:46:16.203Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-06T14:04:59.097Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d21cb5ef01526839b0c114"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c3e5601ec4d95dc09cde"
+  },
+  "product": {
+    "$oid": "64c0de848a51c8aa6656a93b"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-08-08T10:45:09.290Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-08T13:06:38.996Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d23ee8891af6a4c5d7fd09"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c399601ec4d95dc09cc0"
+  },
+  "product": {
+    "$oid": "64c0de848a51c8aa6656a93b"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-08-08T13:11:04.316Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-08T13:11:17.189Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d23f6c891af6a4c5d7fd46"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c3e5601ec4d95dc09cde"
+  },
+  "product": {
+    "$oid": "64c0de848a51c8aa6656a93b"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-08-08T13:13:16.503Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-08T13:14:26.534Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d23fa7891af6a4c5d7fd5e"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c3be601ec4d95dc09ccf"
+  },
+  "product": {
+    "$oid": "64c0dea28a51c8aa6656a942"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-08-08T13:14:15.473Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-08T13:14:24.883Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d240e5891af6a4c5d7fdad"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c3e5601ec4d95dc09cde"
+  },
+  "product": {
+    "$oid": "64c0de848a51c8aa6656a93b"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-08-08T13:19:33.329Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-08T13:45:21.915Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d246eb891af6a4c5d7fdf1"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c3d8601ec4d95dc09cd9"
+  },
+  "product": {
+    "$oid": "64c0dea28a51c8aa6656a942"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-08-08T13:45:15.152Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-08T13:45:19.969Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d31fb364c0ec7e0ab18de9"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c3be601ec4d95dc09ccf"
+  },
+  "product": {
+    "$oid": "64c0de848a51c8aa6656a93b"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-08-09T05:10:11.857Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-09T05:10:22.617Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d31fdd64c0ec7e0ab18e0d"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c3d8601ec4d95dc09cd9"
+  },
+  "product": {
+    "$oid": "64c0de848a51c8aa6656a93b"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-08-09T05:10:53.933Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-09T05:18:46.314Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d327e364c0ec7e0ab18eb2"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c3e5601ec4d95dc09cde"
+  },
+  "product": {
+    "$oid": "64c0de848a51c8aa6656a93b"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-08-09T05:45:07.641Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-09T05:46:34.203Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d3283364c0ec7e0ab18eca"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c3cd601ec4d95dc09cd4"
+  },
+  "product": {
+    "$oid": "64c0dea28a51c8aa6656a942"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-08-09T05:46:27.006Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-09T05:46:32.549Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d3284264c0ec7e0ab18ef9"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c3b2601ec4d95dc09cca"
+  },
+  "product": {
+    "$oid": "64c0de848a51c8aa6656a93b"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-08-09T05:46:42.074Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-09T05:49:05.107Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d328d964c0ec7e0ab18f2c"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c3cd601ec4d95dc09cd4"
+  },
+  "product": {
+    "$oid": "64c0de848a51c8aa6656a93b"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-08-09T05:49:13.191Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-09T05:49:17.459Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d3291564c0ec7e0ab18f74"
+  },
+  "branch": "Sylhet",
+  "user": {
+    "$oid": "63b3c4cc601ec4d95dc09d3e"
+  },
+  "product": {
+    "$oid": "64c0de908a51c8aa6656a93f"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c4cc601ec4d95dc09d3e"
+  },
+  "createdAt": {
+    "$date": "2023-08-09T05:50:13.361Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-09T05:50:16.481Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d37fabf603e36186252fb7"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "63b3c3f0601ec4d95dc09ce3"
+  },
+  "product": {
+    "$oid": "64c0de848a51c8aa6656a93b"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "63b3c274601ec4d95dc09cb4"
+  },
+  "createdAt": {
+    "$date": "2023-08-09T11:59:39.686Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-09T11:59:46.386Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66fe51e0b3045bd3653d973a"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "66d6eb19b1e8770896151be3"
+  },
+  "product": {
+    "$oid": "66fe51beb3045bd3653d9731"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "66fd5a9c081a5fb41adbbfb4"
+  },
+  "createdAt": {
+    "$date": "2024-10-03T08:12:16.842Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-03T10:49:35.743Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66fe8ffc2c60d9a4e0168d65"
+  },
+  "branch": "Goa",
+  "user": {
+    "$oid": "66fd5a9c081a5fb41adbbfb4"
+  },
+  "product": {
+    "$oid": "66fe79642c60d9a4e0168d44"
+  },
+  "status": "inactive",
+  "assignedBy": {
+    "$oid": "66fd5327a6495b2972371167"
+  },
+  "createdAt": {
+    "$date": "2024-10-03T12:37:16.498Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-03T12:38:02.632Z"
+  },
+  "__v": 0
+}]

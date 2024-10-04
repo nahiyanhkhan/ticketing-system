@@ -1,0 +1,160 @@
+[{
+  "_id": {
+    "$oid": "66d6eb19b1e8770896151be3"
+  },
+  "fname": "errr",
+  "lname": "jjjgg",
+  "username": "shivam",
+  "password": "$2a$10$w7JhpOdfxUbkqZFsW6cArOqG3AOOm1zUzaiyvYV8TDiRQSi4clCei",
+  "branch": "Goa",
+  "email": "shivam2@gmail.com",
+  "status": "active",
+  "role": "admin",
+  "createdAt": {
+    "$date": "2024-09-03T10:55:21.406Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-03T10:55:21.406Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66fd5327a6495b2972371167"
+  },
+  "fname": "Nahiyan",
+  "lname": "Khan",
+  "username": "nahiyan",
+  "password": "$2a$10$dUgNFzZLHud5BW4.I46e9.Bw3VGCW78O3oAR.k9W9iSQMP/TRA/5q",
+  "branch": "Sylhet",
+  "email": "nahiyan@admin.com",
+  "status": "active",
+  "role": "user",
+  "createdAt": {
+    "$date": "2024-10-02T14:05:27.565Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-03T10:05:28.897Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66fd5a9c081a5fb41adbbfb4"
+  },
+  "fname": "Abhijit",
+  "lname": "Sarker",
+  "username": "abhijit.sarker",
+  "password": "$2a$10$0K/z.W7.6U3v4/SUhcRDqOrDjLOT2jMD.ZWcR.252jsrsn1fAy.nW",
+  "branch": "Goa",
+  "email": "abhijit.sarker@sjinnovation.com",
+  "status": "active",
+  "role": "superadmin",
+  "createdAt": {
+    "$date": "2024-10-02T14:37:16.823Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-02T14:37:16.823Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66fd5ea5597d99638b6c3be1"
+  },
+  "fname": "Herrod",
+  "lname": "Austin",
+  "username": "valyly",
+  "password": "$2a$10$G3Y3nneUoQTzewW9KxybBOe2vF/ZWWggjvzSpOAPu/uIqM6Dj1hVK",
+  "branch": "Goa",
+  "email": "bowagi@mailinator.com",
+  "status": "active",
+  "role": "user",
+  "createdAt": {
+    "$date": "2024-10-02T14:54:29.319Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-02T14:54:29.319Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66fd5fead91a232081fadcab"
+  },
+  "fname": "Ali",
+  "lname": "Small",
+  "username": "kiwazozuj",
+  "password": "$2a$10$lctBjHxRlUMeMuY3hQigk.MxmM5ETEd5N2loF3S7NZVnoHCqdXyNW",
+  "branch": "Goa",
+  "email": "qelukyryw@mailinator.com",
+  "status": "active",
+  "role": "user",
+  "createdAt": {
+    "$date": "2024-10-02T14:59:54.581Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-02T14:59:54.581Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66fe941eeb6bbbe55a36288f"
+  },
+  "fname": "Sajid",
+  "lname": "Abdullah",
+  "username": "sajid123",
+  "password": "$2a$10$EVSZabLMIwkisjL9LwCCkueiovHQovFbYacGlGfeeJl8L5AwpdWLi",
+  "branch": "Sylhet",
+  "email": "sajid@gmail.com",
+  "status": "active",
+  "role": "superadmin",
+  "createdAt": {
+    "$date": "2024-10-03T12:54:54.882Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-03T12:54:54.882Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ffa035129b4ee7820e57fe"
+  },
+  "fname": "Rayat",
+  "lname": "Ali",
+  "username": "businessman",
+  "password": "$2a$10$ewaH5JNcbr93DsRZTXnQSubp5O.7VAs9jZRRb5lMMhWRE2nwFC66u",
+  "branch": "Sylhet",
+  "email": "rayat@gmail.com",
+  "status": "active",
+  "role": "sumeradmin",
+  "createdAt": {
+    "$date": "2024-10-04T07:58:45.328Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-04T07:59:02.537Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ffa243129b4ee7820e5816"
+  },
+  "fname": "Emon",
+  "lname": "Singha",
+  "username": "emon",
+  "password": "$2a$10$lMTQ8d1qU7gHhIngiD0ZNudimfcSkjmVIt/hWFTyrMgKZHdrTQjka",
+  "branch": "Sylhet",
+  "email": "emon@gmail.com",
+  "status": "active",
+  "role": "superadmin",
+  "createdAt": {
+    "$date": "2024-10-04T08:07:31.451Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-04T08:07:31.451Z"
+  },
+  "__v": 0
+}]

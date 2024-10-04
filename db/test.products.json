@@ -1,0 +1,341 @@
+[{
+  "_id": {
+    "$oid": "64bd2eca0eda595e254cdf40"
+  },
+  "cpu": "Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz",
+  "ram": "8 GB",
+  "storageCapacity": "256 GB",
+  "macAddress": "00:00:00:00:00:00",
+  "os": "Windows 10",
+  "ipAddress": "10.10.202.12",
+  "systemName": "DESKTOP-123456",
+  "antivirusStatus": true,
+  "productType": "Laptop",
+  "storageType": "SSD",
+  "serialNumber": "1234567890",
+  "branch": "Goa",
+  "brand": "HP",
+  "modal": "HP 15",
+  "dop": "2020-01-01",
+  "warrantyPeriod": "2021-01-01",
+  "tag": "assigned",
+  "createdAt": {
+    "$date": "2023-07-23T13:44:42.671Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-23T13:44:42.671Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c0de058a51c8aa6656a939"
+  },
+  "cpu": "Intel(R) Core(TM) i7-10700K CPU @ 3.80GHz",
+  "ram": "16 GB",
+  "storageCapacity": "1 TB",
+  "macAddress": "12:34:56:78:9A:BC",
+  "os": "Windows 11 Pro",
+  "ipAddress": "172.16.0.50",
+  "systemName": "LAPTOP-XYZ789",
+  "antivirusStatus": true,
+  "productType": "Laptop",
+  "storageType": "SSD",
+  "serialNumber": "ABCDEFGHIJ",
+  "branch": "Dhaka",
+  "brand": "Lenovo",
+  "modal": "Lenovo ThinkPad X1 Carbon",
+  "dop": "2021-09-15",
+  "warrantyPeriod": "2024-09-15",
+  "tag": "notassigned",
+  "createdAt": {
+    "$date": "2023-07-26T08:49:09.802Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-26T08:49:09.802Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c0de848a51c8aa6656a93b"
+  },
+  "cpu": "AMD Ryzen 7 5800X",
+  "ram": "32 GB",
+  "storageCapacity": "2 TB",
+  "macAddress": "11:22:33:44:55:66",
+  "os": "Windows 10 Home",
+  "ipAddress": "192.168.1.100",
+  "systemName": "LAPTOP-ABC123",
+  "antivirusStatus": true,
+  "productType": "Laptop",
+  "storageType": "SSD",
+  "serialNumber": "KLMNOP123",
+  "branch": "Goa",
+  "brand": "Asus",
+  "modal": "Asus ROG Zephyrus G14",
+  "dop": "2022-03-10",
+  "warrantyPeriod": "2023-03-10",
+  "tag": "notassigned",
+  "createdAt": {
+    "$date": "2023-07-26T08:51:16.173Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-09T11:59:46.388Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c0de8a8a51c8aa6656a93d"
+  },
+  "cpu": "Intel(R) Core(TM) i5-11300H",
+  "ram": "8 GB",
+  "storageCapacity": "512 GB",
+  "macAddress": "AA:BB:CC:DD:EE:FF",
+  "os": "Windows 11 Home",
+  "ipAddress": "192.168.0.75",
+  "systemName": "LAPTOP-PQR789",
+  "antivirusStatus": false,
+  "productType": "Laptop",
+  "storageType": "NVMe SSD",
+  "serialNumber": "UVWXYZ456",
+  "branch": "Dhaka",
+  "brand": "HP",
+  "modal": "HP Spectre x360",
+  "dop": "2022-11-25",
+  "warrantyPeriod": "2024-11-25",
+  "tag": "notassigned",
+  "createdAt": {
+    "$date": "2023-07-26T08:51:22.139Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-26T08:51:22.139Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c0de908a51c8aa6656a93f"
+  },
+  "cpu": "AMD Ryzen 9 5900HX",
+  "ram": "64 GB",
+  "storageCapacity": "2 TB",
+  "macAddress": "12:AB:34:CD:56:EF",
+  "os": "Windows 10 Pro",
+  "ipAddress": "192.168.2.150",
+  "systemName": "LAPTOP-XYZ123",
+  "antivirusStatus": true,
+  "productType": "Laptop",
+  "storageType": "PCIe NVMe SSD",
+  "serialNumber": "LMNOP1234",
+  "branch": "Sylhet",
+  "brand": "Dell",
+  "modal": "Dell XPS 15",
+  "dop": "2022-06-05",
+  "warrantyPeriod": "2023-06-05",
+  "tag": "notassigned",
+  "createdAt": {
+    "$date": "2023-07-26T08:51:28.667Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-09T05:50:16.483Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c0dea28a51c8aa6656a942"
+  },
+  "cpu": "Intel(R) Core(TM) i7-1165G7",
+  "ram": "16 GB",
+  "storageCapacity": "1 TB",
+  "macAddress": "12:34:AB:CD:56:EF",
+  "os": "Windows 11 Home",
+  "ipAddress": "192.168.5.200",
+  "systemName": "LAPTOP-XYZ987",
+  "antivirusStatus": false,
+  "productType": "Laptop",
+  "storageType": "NVMe SSD",
+  "serialNumber": "FGHIJK789",
+  "branch": "Goa",
+  "brand": "Acer",
+  "modal": "Acer Swift 5",
+  "dop": "2023-01-07",
+  "warrantyPeriod": "2024-01-07",
+  "tag": "notassigned",
+  "createdAt": {
+    "$date": "2023-07-26T08:51:46.750Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-09T05:46:32.552Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66fd69c9a8f36c048a133235"
+  },
+  "branch": "Goa",
+  "dateOfPurchase": "2023-09-15T00:00:00.000Z",
+  "productCategory": "Computer",
+  "productType": "Desktop",
+  "warrantyPeriod": "3 years",
+  "systemName": "OfficePC-001",
+  "systemModel": "OptiPlex 7080",
+  "systemBrand": "Dell",
+  "cpu": "Intel Core i5-10500",
+  "ram": "16GB",
+  "storageType": "SSD",
+  "storageCapacity": "512GB",
+  "os": "Windows 10 Pro",
+  "macAddress": "00:1A:2B:3C:4D:5E",
+  "productKey": "XXXXX-XXXXX-XXXXX-XXXXX-XXXXX",
+  "serialNumber": "SN12345678",
+  "accessoriesName": "Keyboard, Mouse",
+  "networkDeviceName": "Realtek PCIe GbE Family Controller",
+  "tag": "assigned",
+  "createdBy": "615f1f429c1a5e00157b1a0a"
+},
+{
+  "_id": {
+    "$oid": "66fd69c9a8f36c048a133236"
+  },
+  "branch": "Dhaka",
+  "dateOfPurchase": "2022-05-10T00:00:00.000Z",
+  "productCategory": "Peripheral",
+  "productType": "Monitor",
+  "warrantyPeriod": "2 years",
+  "systemBrand": "HP",
+  "systemModel": "HP EliteDisplay E243",
+  "serialNumber": "SN87654321",
+  "accessoriesName": "Power Cable, HDMI Cable",
+  "tag": "notassigned",
+  "createdBy": "615f1f429c1a5e00157b1a0a"
+},
+{
+  "_id": {
+    "$oid": "66fd69c9a8f36c048a133237"
+  },
+  "branch": "Sylhet",
+  "dateOfPurchase": "2023-03-20T00:00:00.000Z",
+  "productCategory": "Network Device",
+  "productType": "Router",
+  "systemBrand": "TP-Link",
+  "systemModel": "Archer C7",
+  "warrantyPeriod": "1 year",
+  "serialNumber": "SN13579135",
+  "macAddress": "12:34:56:78:9A:BC",
+  "networkDeviceName": "TP-Link Archer C7",
+  "tag": "assigned",
+  "createdBy": "615f1f429c1a5e00157b1a0a"
+},
+{
+  "_id": {
+    "$oid": "66fe51a4b3045bd3653d9725"
+  },
+  "branch": "Goa",
+  "dateOfPurchase": {
+    "$date": "1977-09-08T18:00:00.000Z"
+  },
+  "productCategory": "Accessories",
+  "productType": "USBDongle",
+  "warrantyPeriod": "Velit atque aliquid",
+  "serialNumber": "501",
+  "accessoriesName": "Kimberley Alexander",
+  "tag": "notassigned",
+  "createdBy": {
+    "$oid": "66fd5a9c081a5fb41adbbfb4"
+  },
+  "createdAt": {
+    "$date": "2024-10-03T08:11:16.993Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-03T08:11:16.993Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66fe51beb3045bd3653d9731"
+  },
+  "branch": "Goa",
+  "dateOfPurchase": {
+    "$date": "1972-10-30T18:00:00.000Z"
+  },
+  "productCategory": "System",
+  "productType": "Laptop",
+  "warrantyPeriod": "Quia in non velit ut",
+  "systemName": "Hilary Montgomery",
+  "systemModel": "Quibusdam illo vitae",
+  "systemBrand": "Numquam in atque eu",
+  "cpu": "Neque libero dolorem",
+  "ram": "At optio ducimus r",
+  "storageType": "Eos eum qui soluta",
+  "storageCapacity": "Aute iure qui harum",
+  "os": "Ea deserunt voluptat",
+  "macAddress": "Cupiditate aut quibu",
+  "productKey": "Est perspiciatis co",
+  "serialNumber": "598",
+  "tag": "notassigned",
+  "createdBy": {
+    "$oid": "66fd5a9c081a5fb41adbbfb4"
+  },
+  "createdAt": {
+    "$date": "2024-10-03T08:11:42.763Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-03T10:49:36.018Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66fe520eb3045bd3653d9757"
+  },
+  "branch": "Goa",
+  "dateOfPurchase": {
+    "$date": "1983-07-23T18:00:00.000Z"
+  },
+  "productCategory": "Accessories",
+  "productType": "Headphone",
+  "warrantyPeriod": "Commodo non a corrup",
+  "serialNumber": "329",
+  "accessoriesName": "Brady Mckenzie",
+  "tag": "notassigned",
+  "createdBy": {
+    "$oid": "66fd5a9c081a5fb41adbbfb4"
+  },
+  "createdAt": {
+    "$date": "2024-10-03T08:13:02.408Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-03T08:13:02.408Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66fe79642c60d9a4e0168d44"
+  },
+  "branch": "Goa",
+  "dateOfPurchase": {
+    "$date": "2024-08-16T00:00:00.000Z"
+  },
+  "productCategory": "Accessories",
+  "productType": "Keyboard",
+  "warrantyPeriod": "6 months",
+  "serialNumber": "201",
+  "accessoriesName": "Logitech keyboard",
+  "tag": "notassigned",
+  "createdBy": {
+    "$oid": "66fd5327a6495b2972371167"
+  },
+  "createdAt": {
+    "$date": "2024-10-03T11:00:52.533Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-03T12:38:02.902Z"
+  },
+  "__v": 0
+}]
