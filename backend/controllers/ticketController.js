@@ -20,10 +20,9 @@ const getAllTickets = async (req, res) => {
 
 const getTicket = async (req, res) => {
   const { id: ticketId } = req.params;
-  const ticket = await Ticket.findOne({ _id: ticketId }).populate(
-    "createdBy",
-    "email"
-  );
+  const ticket = await Ticket.findOne({ _id: ticketId })
+    .populate("createdBy", "email")
+    .populate("replies.repliedBy", "email");
 
   if (!ticket) {
     throw new CustomError.NotFoundError(`No ticket with id : ${ticketId}`);
@@ -56,10 +55,38 @@ const deleteTicket = async (req, res) => {
   res.status(StatusCodes.OK).json({ msg: "Success! Ticket removed." });
 };
 
+const addReplyToTicket = async (req, res) => {
+  const { id: ticketId } = req.params;
+  const { content } = req.body;
+
+  if (!req.user || !req.user.userId) {
+    throw new CustomError.UnauthenticatedError("Authentication invalid");
+  }
+
+  const ticket = await Ticket.findOne({ _id: ticketId });
+
+  if (!ticket) {
+    throw new CustomError.NotFoundError(`No ticket with id : ${ticketId}`);
+  }
+
+  // Check if the user is an admin or superadmin
+  if (req.user.role !== "admin" && req.user.role !== "superadmin") {
+    throw new CustomError.UnauthorizedError(
+      "Not authorized to reply to tickets"
+    );
+  }
+
+  ticket.replies.push({ content, repliedBy: req.user.userId });
+  await ticket.save();
+
+  res.status(StatusCodes.OK).json({ ticket });
+};
+
 module.exports = {
   createTicket,
   getAllTickets,
   getTicket,
   updateTicket,
   deleteTicket,
+  addReplyToTicket,
 };
