@@ -14,15 +14,18 @@ const createTicket = async (req, res) => {
 };
 
 const getAllTickets = async (req, res) => {
-  const tickets = await Ticket.find({}).populate("createdBy", "email");
+  const tickets = await Ticket.find({}).populate(
+    "createdBy",
+    "email fname lname username"
+  );
   res.status(StatusCodes.OK).json({ tickets, count: tickets.length });
 };
 
 const getTicket = async (req, res) => {
   const { id: ticketId } = req.params;
   const ticket = await Ticket.findOne({ _id: ticketId })
-    .populate("createdBy", "email")
-    .populate("replies.repliedBy", "email");
+    .populate("createdBy", "email fname lname username")
+    .populate("replies.repliedBy", "email fname lname username");
 
   if (!ticket) {
     throw new CustomError.NotFoundError(`No ticket with id : ${ticketId}`);

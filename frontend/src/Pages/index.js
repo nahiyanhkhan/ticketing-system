@@ -10,6 +10,8 @@ import Request from "./Request";
 import AddUser from "./Users/Add";
 import ListUser from "./Users/List";
 import EditUser from "./Users/Edit";
+import TicketList from "./Tickets/TicketList";
+import TicketDetails from "./Tickets/TicketDetails";
 
 export {
   LoginForm,
@@ -24,4 +26,6 @@ export {
   ListUser,
   EditUser,
   EditSystemDetails,
+  TicketList,
+  TicketDetails,
 };
