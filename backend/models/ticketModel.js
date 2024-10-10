@@ -34,8 +34,8 @@ const TicketSchema = new mongoose.Schema(
         "keyboard",
         "monitor",
         "laptop",
-        "desktop",
-        "printer",
+        "usb hub",
+        "webcam",
         "other",
       ],
     },
@@ -48,7 +48,7 @@ const TicketSchema = new mongoose.Schema(
     status: {
       type: String,
       required: true,
-      enum: ["open", "in-progress", "resolved", "closed"],
+      enum: ["open", "in-progress", "closed"],
       default: "open",
     },
     createdBy: {

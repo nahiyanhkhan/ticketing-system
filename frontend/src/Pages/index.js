@@ -12,6 +12,7 @@ import ListUser from "./Users/List";
 import EditUser from "./Users/Edit";
 import TicketList from "./Tickets/TicketList";
 import TicketDetails from "./Tickets/TicketDetails";
+import CreateTicket from "./Tickets/CreateTicket";
 
 export {
   LoginForm,
@@ -28,4 +29,5 @@ export {
   EditSystemDetails,
   TicketList,
   TicketDetails,
+  CreateTicket,
 };
