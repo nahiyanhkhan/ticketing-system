@@ -17,6 +17,7 @@ import {
   TicketList,
   TicketDetails,
   CreateTicket,
+  MyTickets,
 } from "./Pages";
 
 import AssignItem from "./Pages/AssignItems";
@@ -39,6 +40,7 @@ function App() {
           <Route path="tickets" element={<TicketList />} />
           <Route path="tickets/:id" element={<TicketDetails />} />
           <Route path="/create-ticket" element={<CreateTicket />} />
+          <Route path="/my-tickets" element={<MyTickets />} />
         </Route>
 
         <Route path="login" element={<LoginForm />} />

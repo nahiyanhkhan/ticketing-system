@@ -7,7 +7,6 @@ const Layout = () => {
   const location = useLocation();
   const { role } = getUserDetails();
   return isLoggedIn() ? (
-    role === "superadmin" ? (
       <SidebarContextProvider>
         <main className="d-flex flex-nowrap">
           <Sidebar />
@@ -20,12 +19,14 @@ const Layout = () => {
           </div>
         </main>
       </SidebarContextProvider>
-    ) : (
-      <Navigate to="/login" state={{ from: location }} replace />
-    )
   ) : (
     <Navigate to="/login" state={{ from: location }} replace />
   );
 };
 
 export default Layout;
+
+// role === "superadmin" ? (
+// ) : (
+//   <Navigate to="/login" state={{ from: location }} replace />
+// )
