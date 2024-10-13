@@ -1,10 +1,10 @@
 const mongoose = require("mongoose");
 
-const ReplySchema = new mongoose.Schema(
+const CommentSchema = new mongoose.Schema(
   {
     content: {
       type: String,
-      required: [true, "Reply content is required"],
+      required: [true, "Comment content is required"],
     },
     repliedBy: {
       type: mongoose.Schema.Types.ObjectId,
@@ -60,7 +60,7 @@ const TicketSchema = new mongoose.Schema(
       type: mongoose.Schema.Types.ObjectId,
       ref: "User",
     },
-    replies: [ReplySchema],
+    comments: [CommentSchema],
   },
   { timestamps: true }
 );

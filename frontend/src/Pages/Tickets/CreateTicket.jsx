@@ -165,7 +165,7 @@ const CreateTicket = () => {
         bg="success"
         showToaster={showSuccessToaster}
         setShowToaster={setShowSuccessToaster}
-        to="tickets"
+        to="my-tickets"
       />
       <Toaster
         title={error}

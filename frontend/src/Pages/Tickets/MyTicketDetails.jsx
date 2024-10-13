@@ -2,23 +2,21 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { useParams, Link } from "react-router-dom";
 
-const TicketDetails = () => {
+const MyTicketDetails = () => {
   const [ticket, setTicket] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [status, setStatus] = useState("");
-  const [priority, setPriority] = useState("");
   const [comments, setComments] = useState([]);
   const [newComment, setNewComment] = useState("");
   const { id } = useParams();
 
   useEffect(() => {
-    fetchTicketDetails();
+    fetchMyTicketDetails();
     fetchCommentsWithRetry();
     // fetchComments();
   }, [id]);
 
-  const fetchTicketDetails = async () => {
+  const fetchMyTicketDetails = async () => {
     try {
       const userDetailsString = localStorage.getItem("userDetails");
       if (!userDetailsString) {
@@ -38,35 +36,20 @@ const TicketDetails = () => {
           headers: { Authorization: `Bearer ${token}` },
         }
       );
+
+      // Check if the ticket belongs to the current user
+      if (response.data.ticket.createdBy._id !== userDetails.userId) {
+        throw new Error("You don't have permission to view this ticket");
+      }
+
       setTicket(response.data.ticket);
-      setStatus(response.data.ticket.status);
-      setPriority(response.data.ticket.priority);
       setLoading(false);
     } catch (err) {
       console.error("Error fetching ticket details:", err);
-      setError("Failed to fetch ticket details. Please try again later.");
-      setLoading(false);
-    }
-  };
-
-  const updateTicket = async (field, value) => {
-    try {
-      const userDetails = JSON.parse(localStorage.getItem("userDetails"));
-      const token = userDetails.token;
-
-      await axios.patch(
-        `${process.env.REACT_APP_BASE_URL}tickets/${id}`,
-        { [field]: value },
-        {
-          headers: { Authorization: `Bearer ${token}` },
-        }
+      setError(
+        err.message || "Failed to fetch ticket details. Please try again later."
       );
-
-      // Refresh ticket details after update
-      fetchTicketDetails();
-    } catch (err) {
-      console.error("Error updating ticket:", err);
-      setError("Failed to update ticket. Please try again later.");
+      setLoading(false);
     }
   };
 
@@ -101,7 +84,7 @@ const TicketDetails = () => {
   };
 
   const addComment = async () => {
-    if (newComment.trim() === "" || ticket.status.toLowerCase() === "closed") {
+    if (newComment.trim() === "") {
       return;
     }
 
@@ -125,13 +108,17 @@ const TicketDetails = () => {
     }
   };
 
+  const canUserComment = () => {
+    return comments.length > 0 && ticket.status.toLowerCase() !== "closed";
+  };
+
   if (loading) return <div>Loading...</div>;
   if (error) return <div className="alert alert-danger">{error}</div>;
   if (!ticket) return <div>Ticket not found</div>;
 
   return (
     <div className="container-fluid mt-4">
-      <h2>Ticket Details</h2>
+      <h2>My Ticket Details</h2>
       <div className="row">
         {/* Comments Section */}
         <div className="col-md-6">
@@ -145,15 +132,12 @@ const TicketDetails = () => {
                   value={newComment}
                   onChange={(e) => setNewComment(e.target.value)}
                   placeholder="Add a comment..."
-                  disabled={ticket.status.toLowerCase() === "closed"}
+                  disabled={!canUserComment()}
                 ></textarea>
                 <button
                   className="btn btn-primary mt-2"
                   onClick={addComment}
-                  disabled={
-                    newComment.trim() === "" ||
-                    ticket.status.toLowerCase() === "closed"
-                  }
+                  disabled={!canUserComment() || newComment.trim() === ""}
                 >
                   Add Comment
                 </button>
@@ -187,50 +171,17 @@ const TicketDetails = () => {
           <div className="card">
             <div className="card-body">
               <h4 className="card-title">{ticket.title}</h4>
-              <div className="mb-3">
-                <label className="form-label">
-                  <strong>Status:</strong>
-                </label>
-                <select
-                  className="form-select"
-                  value={status}
-                  onChange={(e) => {
-                    setStatus(e.target.value);
-                    updateTicket("status", e.target.value);
-                  }}
-                >
-                  <option value="open">Open</option>
-                  <option value="in-progress">In Progress</option>
-                  <option value="closed">Closed</option>
-                </select>
-              </div>
-              <div className="mb-3">
-                <label className="form-label">
-                  <strong>Priority:</strong>
-                </label>
-                <select
-                  className="form-select"
-                  value={priority}
-                  onChange={(e) => {
-                    setPriority(e.target.value);
-                    updateTicket("priority", e.target.value);
-                  }}
-                >
-                  <option value="low">Low</option>
-                  <option value="medium">Medium</option>
-                  <option value="high">High</option>
-                  <option value="critical">Critical</option>
-                </select>
-              </div>
+              <p className="card-text">
+                <strong>Status:</strong> {ticket.status}
+              </p>
+              <p className="card-text">
+                <strong>Priority:</strong> {ticket.priority}
+              </p>
               <p className="card-text">
                 <strong>Device Type:</strong> {ticket.deviceType}
               </p>
               <p className="card-text">
                 <strong>Description:</strong> {ticket.description}
-              </p>
-              <p className="card-text">
-                <strong>Created By:</strong> {ticket.createdBy.fname}{" "}
-                {ticket.createdBy.lname} ({ticket.createdBy.email})
               </p>
               <p className="card-text">
                 <strong>Created At:</strong>{" "}
@@ -243,8 +194,8 @@ const TicketDetails = () => {
               )}
             </div>
           </div>
-          <Link to="/tickets" className="btn btn-secondary mt-3">
-            Back to Ticket List
+          <Link to="/my-tickets" className="btn btn-secondary mt-3">
+            Back to My Tickets
           </Link>
         </div>
       </div>
@@ -252,4 +203,4 @@ const TicketDetails = () => {
   );
 };
 
-export default TicketDetails;
+export default MyTicketDetails;

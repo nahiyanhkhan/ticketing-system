@@ -25,7 +25,7 @@ const getTicket = async (req, res) => {
   const { id: ticketId } = req.params;
   const ticket = await Ticket.findOne({ _id: ticketId })
     .populate("createdBy", "email fname lname username")
-    .populate("replies.repliedBy", "email fname lname username");
+    .populate("comments.repliedBy", "email fname lname username");
 
   if (!ticket) {
     throw new CustomError.NotFoundError(`No ticket with id : ${ticketId}`);
@@ -72,17 +72,34 @@ const addReplyToTicket = async (req, res) => {
     throw new CustomError.NotFoundError(`No ticket with id : ${ticketId}`);
   }
 
-  // Check if the user is an admin or superadmin
-  if (req.user.role !== "admin" && req.user.role !== "superadmin") {
-    throw new CustomError.UnauthorizedError(
-      "Not authorized to reply to tickets"
-    );
-  }
+  // // Check if the user is an admin or superadmin
+  // if (req.user.role !== "admin" && req.user.role !== "superadmin") {
+  //   throw new CustomError.UnauthorizedError(
+  //     "Not authorized to reply to tickets"
+  //   );
+  // }
 
-  ticket.replies.push({ content, repliedBy: req.user.userId });
+  ticket.comments.push({ content, repliedBy: req.user.userId });
   await ticket.save();
 
   res.status(StatusCodes.OK).json({ ticket });
+};
+
+const getTicketComments = async (req, res) => {
+  const { id: ticketId } = req.params;
+
+  const ticket = await Ticket.findOne({ _id: ticketId })
+    .select("comments")
+    .populate({
+      path: "comments.repliedBy",
+      select: "email fname lname username",
+    });
+
+  if (!ticket) {
+    throw new CustomError.NotFoundError(`No ticket with id : ${ticketId}`);
+  }
+
+  res.status(StatusCodes.OK).json({ comments: ticket.comments });
 };
 
 module.exports = {
@@ -92,4 +109,5 @@ module.exports = {
   updateTicket,
   deleteTicket,
   addReplyToTicket,
+  getTicketComments,
 };

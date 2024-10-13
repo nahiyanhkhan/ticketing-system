@@ -14,6 +14,7 @@ import TicketList from "./Tickets/TicketList";
 import TicketDetails from "./Tickets/TicketDetails";
 import CreateTicket from "./Tickets/CreateTicket";
 import MyTickets from "./Tickets/MyTickets";
+import MyTicketDetails from "./Tickets/MyTicketDetails";
 
 export {
   LoginForm,
@@ -32,4 +33,5 @@ export {
   TicketDetails,
   CreateTicket,
   MyTickets,
+  MyTicketDetails,
 };
