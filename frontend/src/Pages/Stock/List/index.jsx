@@ -44,8 +44,18 @@ const ListStock = () => {
   const [showLoader, setShowLoader] = useState(false);
   const [totalItems, setTotalItems] = useState(0);
   const [currentPage, setCurrentPage] = useState(1);
+  const [userBranch, setUserBranch] = useState("");
   const ITEMS_PER_PAGE = 5;
   const removeDeviceIdRef = useRef(null);
+
+  useEffect(() => {
+    // Get user details from localStorage
+    const userDetailsString = localStorage.getItem("userDetails");
+    if (userDetailsString) {
+      const userDetails = JSON.parse(userDetailsString);
+      setUserBranch(userDetails.branch);
+    }
+  }, []);
 
   const handleAssignmentModal = () =>
     setShowAssignmentModal(!showAssignmentModal);
@@ -91,7 +101,7 @@ const ListStock = () => {
       },
     });
     userList.current = data.user.filter(
-      (usr) => usr.branch === "Goa" && usr.status === "active"
+      (usr) => usr.branch === userBranch && usr.status === "active"
     );
     const usersEmail = userList.current.map((user) => user.email);
     setEmailList(usersEmail);
@@ -112,7 +122,7 @@ const ListStock = () => {
     await axiosSecure.post(
       "/assignedProduct",
       {
-        branch: "Goa",
+        branch: userBranch,
         user: selectedUserId,
         product: selectedStockId,
       },
