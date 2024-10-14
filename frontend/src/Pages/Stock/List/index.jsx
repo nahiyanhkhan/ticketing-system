@@ -101,7 +101,9 @@ const ListStock = () => {
       },
     });
     userList.current = data.user.filter(
-      (usr) => usr.branch === userBranch && usr.status === "active"
+      (usr) =>
+        usr.branch.toLowerCase() === userBranch.toLowerCase() &&
+        usr.status === "active"
     );
     const usersEmail = userList.current.map((user) => user.email);
     setEmailList(usersEmail);

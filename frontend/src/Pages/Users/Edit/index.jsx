@@ -70,6 +70,9 @@ const EditUser = () => {
             if (!values.branch) {
               errors.branch = "Branch is mandatory";
             }
+            if (!values.userType) {
+              errors.userType = "User role is mandatory";
+            }
             return errors;
           }}
           onSubmit={(values, { setSubmitting }) => {
@@ -84,7 +87,7 @@ const EditUser = () => {
                   email: values.email,
                   branch: values.branch,
                   status: values.status,
-                  role: "user",
+                  role: values.userType,
                 },
                 {
                   headers: {
@@ -167,6 +170,26 @@ const EditUser = () => {
                       <Form.Select
                         className="form-select"
                         type="text"
+                        name="userType"
+                        aria-label="Select a user role"
+                        isInvalid={!!touched.userType && !!errors.userType}
+                        value={values.userType}
+                        onChange={handleChange}
+                      >
+                        <option value="">Select a role</option>
+                        <option value="user">User</option>
+                        <option value="admin">Admin</option>
+                        <option value="superadmin">Super Admin</option>
+                      </Form.Select>
+                      <label htmlFor="floatingSelect">Select a user role</label>
+                      <div className="invalid-feedback">{errors.userType}</div>
+                    </FloatingLabel>
+                  </Col>
+                  <Col md={6} lg={6} xl={6}>
+                    <FloatingLabel>
+                      <Form.Select
+                        className="form-select"
+                        type="text"
                         name="branch"
                         aria-label="Select a branch"
                         isInvalid={!!touched.branch && !!errors.branch}
@@ -174,6 +197,7 @@ const EditUser = () => {
                         onChange={handleChange}
                       >
                         {/* <option selected disabled>Select</option> */}
+                        <option value="">Select a branch</option>
                         <option value="Dhaka">Dhaka</option>
                         <option value="Goa">Goa</option>
                         <option value="Sylhet">Sylhet</option>

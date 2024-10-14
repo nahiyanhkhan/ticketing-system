@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { useParams, Link } from "react-router-dom";
+import { useNavigate, useParams, Link } from "react-router-dom";
+import Modal from "react-bootstrap/Modal";
+import Button from "react-bootstrap/Button";
 
 const TicketDetails = () => {
   const [ticket, setTicket] = useState(null);
@@ -10,6 +12,8 @@ const TicketDetails = () => {
   const [priority, setPriority] = useState("");
   const [comments, setComments] = useState([]);
   const [newComment, setNewComment] = useState("");
+  const [showDeleteModal, setShowDeleteModal] = useState(false);
+  const navigate = useNavigate();
   const { id } = useParams();
 
   useEffect(() => {
@@ -17,6 +21,28 @@ const TicketDetails = () => {
     fetchCommentsWithRetry();
     // fetchComments();
   }, [id]);
+
+  const handleDelete = () => {
+    setShowDeleteModal(true);
+  };
+
+  const confirmDelete = async () => {
+    try {
+      const userDetails = JSON.parse(localStorage.getItem("userDetails"));
+      const token = userDetails?.token;
+
+      await axios.delete(
+        `${process.env.REACT_APP_BASE_URL}tickets/${ticket._id}`,
+        {
+          headers: { Authorization: `Bearer ${token}` },
+        }
+      );
+      setShowDeleteModal(false);
+      navigate("/tickets");
+    } catch (error) {
+      console.error("Error deleting ticket:", error);
+    }
+  };
 
   const fetchTicketDetails = async () => {
     try {
@@ -243,9 +269,38 @@ const TicketDetails = () => {
               )}
             </div>
           </div>
-          <Link to="/tickets" className="btn btn-secondary mt-3">
-            Back to Ticket List
-          </Link>
+          <div className="mt-3">
+            <Link to="/tickets" className="btn btn-secondary me-2">
+              Back to Ticket List
+            </Link>
+            <Button variant="danger" onClick={handleDelete}>
+              Delete Ticket
+            </Button>
+          </div>
+
+          {/* Delete Confirmation Modal */}
+          <Modal
+            show={showDeleteModal}
+            onHide={() => setShowDeleteModal(false)}
+          >
+            <Modal.Header closeButton>
+              <Modal.Title>Confirm Deletion</Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+              Are you sure you want to delete this ticket?
+            </Modal.Body>
+            <Modal.Footer>
+              <Button
+                variant="secondary"
+                onClick={() => setShowDeleteModal(false)}
+              >
+                Cancel
+              </Button>
+              <Button variant="danger" onClick={confirmDelete}>
+                Delete
+              </Button>
+            </Modal.Footer>
+          </Modal>
         </div>
       </div>
     </div>

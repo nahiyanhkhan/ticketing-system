@@ -34,10 +34,23 @@ const LoginForm = () => {
         userId,
         token: userToken,
       };
-      localStorage.userDetails = JSON.stringify(userDetails);
-      navigate("/", { replace: true });
+      localStorage.setItem("userDetails", JSON.stringify(userDetails));
+
+      const storedUserDetails = JSON.parse(localStorage.getItem("userDetails"));
+
+      // console.log(storedUserDetails.role.toLowerCase());
+
+      // Check the user's role and navigate accordingly
+      if (
+        storedUserDetails &&
+        storedUserDetails.role.toLowerCase() === "user"
+      ) {
+        navigate("/my-tickets", { replace: true });
+      } else {
+        navigate("/", { replace: true });
+      }
     }
-  }, [userToken]);
+  }, [userToken, navigate]);
 
   useEffect(() => {
     setErrMsg("");
