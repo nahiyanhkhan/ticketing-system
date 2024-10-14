@@ -9,11 +9,16 @@ import "./Sidebar.scss";
 const Sidebar = () => {
   const { activeMenu, setActiveMenu } = useContext(SidebarContext);
   const [userRole, setUserRole] = useState("");
+  const [userEmail, setUserEmail] = useState("");
 
   useEffect(() => {
     const userDetails = JSON.parse(localStorage.getItem("userDetails"));
     if (userDetails && userDetails.role) {
       setUserRole(userDetails.role);
+    }
+
+    if (userDetails && userDetails.email) {
+      setUserEmail(userDetails.email);
     }
   }, []);
 
@@ -221,7 +226,7 @@ const Sidebar = () => {
               height="32"
               className="rounded-circle me-2"
             />
-            <strong>mdo</strong>
+            <strong>{userEmail}</strong>
           </a>
           <ul
             className="dropdown-menu dropdown-menu-dark text-small shadow"
